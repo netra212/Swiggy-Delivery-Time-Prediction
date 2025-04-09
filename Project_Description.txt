@@ -37,3 +37,10 @@ Overall:-
 2. They can manage staff to balance out between in house orders vs home deliveries. 
 3. They can scale up staff and resources during events of increased demands. 
 4. Company can also leverage discounts and coupons to increase demand during off peak hours which results in continous revenue generation.
+
+# What Metrics to use ?
+- RMSE and MAE because we are predicting the time here. so we have to keep our unit same. because our riders and customers will not understand mins_square or mins^square. 
+
+- RMSE = np.sqrt(np.sum(y_i - y_hat)^2 / n)
+- MAE = np.sum(y_i - y_hat)
+
