@@ -1,0 +1,23 @@
+# Business Use case. 
+- In the competitive food delivery market, on-time delivery is critical for customer satisfaction, retention, and operation efficiency. A company wants to optimize delivery time predictions to improve customer experience by providing accurate estimated delivery times (ETAs) and to manage resources effectively. Accurate predictions of delivery time can also allow the business to:
+    1. Improve Delivery efficiency:
+        - Identifying factors that slow down deliveries enables better resource allocation, such as more reliable scheduling for deliver personnel. 
+    2. Enhance Customer Satisfaction:
+        - REeliable delivery ETAs can improve the customer experience by reducing wait-time uncertainty.
+    3. Optimize Operational Costs:
+        - If the model can predict scenarios with higher delays, additional resources (like more drivers or prioritizing specific orders) can be allocated. 
+
+# How ML Helps ?
+1 Enhanced Customer Experience.
+    - Customer Satisfaction and Retention.
+    - Improved Transparan
+
+In Summary:-
+Overall:-
+    1. Increase customer satisfaction as customers can plan their order meals. 
+    2. Increase customer trust in company. Clear accurate ETAs improve transparency, a factor increasingly valued by customers. If a delay is predicted due to conditions like traffic or weather, proactive updates to ETAs reassure customers that they are informed. 
+    3. Accurate time predictions reduces chances of cancelled orders. 
+    4. Increased transparency can help in lower customer service calls which eases up traffic of complaints those are time related.
+    5. The dispath team for riderss can plan routes and manpower accordingly to serve customers on time. 
+    6. They can focus on hotspots in the city which have increased orders at certain time of delay, month, year. 
+    7. Can help company implement surge pricing in extreme weather or congestion events. 
