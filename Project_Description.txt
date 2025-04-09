@@ -21,3 +21,19 @@ Overall:-
     5. The dispath team for riderss can plan routes and manpower accordingly to serve customers on time. 
     6. They can focus on hotspots in the city which have increased orders at certain time of delay, month, year. 
     7. Can help company implement surge pricing in extreme weather or congestion events. 
+
+# Riders:
+1. Riders can plan pickups and deliveries accordingly. 
+2. They have a foresight of time taken for delievery so can manage multiple orders along the same route. 
+3. Can help in route planning in case of traffic congestion. 
+4. Can do faster deliveries and limit wait times to increase number of deliveries per day which increases their earning potential. 
+5. Drivers do not have to rush or do risky drivining during high rush hours as their deliver time are in synchrony with the on ground situation which give them peace of mind and reduces the chances of unncessary cancellations and do not impact their ratings. 
+6. Can opt for other providers when demand is less to increase their earnings. 
+7. Can tackle multiples deliveries. 
+
+
+# Restaurants. 
+1. They can priotize their orders if delivery times are available. 
+2. They can manage staff to balance out between in house orders vs home deliveries. 
+3. They can scale up staff and resources during events of increased demands. 
+4. Company can also leverage discounts and coupons to increase demand during off peak hours which results in continous revenue generation.
