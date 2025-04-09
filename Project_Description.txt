@@ -41,6 +41,38 @@ Overall:-
 # What Metrics to use ?
 - RMSE and MAE because we are predicting the time here. so we have to keep our unit same. because our riders and customers will not understand mins_square or mins^square. 
 
-- RMSE = np.sqrt(np.sum(y_i - y_hat)^2 / n)
-- MAE = np.sum(y_i - y_hat)
+- RMSE = np.sqrt(np.sum(y_i - y_hat)^2 / n) - Robust to outliers because it penalized.  
+- MAE = np.sum(y_i - y_hat) - Gives the true pictures because we want to handle the outliers Points as well. 
 
+# How It can Impacts in Business ?
+1. Customer Satisfaction Score (CSAT):
+
+    - Impact: With accurate ETAs, customers feel more informed and are less likely to experience frustration from delays or inaccurate delivery windows.
+
+    - Measurement: Customer satisfaction surveys or ratings post-delivery. A rise in CSAT often indicates positive customer experiences.
+
+2. Customer Retention Rate:
+
+    - Impact: Satisfied customers are more likely to reorder, especially if the delivery experience meets or exceeds expectations consistently.
+
+    - Measurement: Percentage of customers who continue ordering after their initial experiences. Improved ETAs help build customer trust and encourage repeat business.
+
+3. Average Order Value (AOV)
+
+    - Impact: When customers trust the delivery process, they may place larger or more frequent orders, especially during promotions or peak times.
+
+    - Measurement: Monitoring trends in order value over time can indicate that enhanced delivery service is encouraging higher spending.
+
+4. Delivery Success Rate
+
+    - Impact: Reduced late deliveries and minimized cancellation rates can increase the proportion of successful deliveries.
+
+    - Measurement: Percentage of orders successfully delivered within the promised time frame. Lowering cancellation rates or delays directly impacts delivery success.
+
+5. Operational Efficiency Metrics:
+
+    - Driver Utilization Rate: Predictive ETAs allow for better routing and delivery clustering, optimizing each driver’s workload.
+
+    - Delivery per Hour: Accurate predictions reduce idle time and allow drivers to complete more orders per shift.
+    
+    - Cost per Delivery: Fewer delays and optimized routing reduce fuel costs, time on the road, and labour costs per delivery.
