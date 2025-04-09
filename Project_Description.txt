@@ -74,5 +74,16 @@ Overall:-
     - Driver Utilization Rate: Predictive ETAs allow for better routing and delivery clustering, optimizing each driver’s workload.
 
     - Delivery per Hour: Accurate predictions reduce idle time and allow drivers to complete more orders per shift.
-    
+
     - Cost per Delivery: Fewer delays and optimized routing reduce fuel costs, time on the road, and labour costs per delivery.
+
+6. Customer Support Cost
+
+    - Impact: Fewer customers will call support for delivery updates if they have a reliable ETA. This reduces operational costs tied to customer service.
+
+    - Measurement: Reduced volume of time-related inquiries and complaints means lower customer support costs, indicating a positive impact from reliable delivery predictions.
+
+7. Order Cancellation Rate
+
+    - Impact: With accurate ETAs, customers are less likely to cancel orders due to long or uncertain wait times.
+    - Measurement: The percentage of orders cancelled by customers can drop with improved delivery time accuracy.
