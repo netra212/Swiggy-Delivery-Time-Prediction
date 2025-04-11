@@ -156,7 +156,7 @@ def create_distance_type(data: pd.DataFrame):
     ))
 
 
-def perform_data_cleaning(data: pd.DataFrame, saved_data_path="swiggy_cleaned.csv"):
+def perform_data_cleaning(data: pd.DataFrame, saved_data_path="../data/swiggy_cleaned.csv"):
     
     cleaned_data = (
         data
@@ -169,12 +169,11 @@ def perform_data_cleaning(data: pd.DataFrame, saved_data_path="swiggy_cleaned.cs
     
     # save the data
     cleaned_data.to_csv(saved_data_path,index=False)
+   
     
-    
-
 if __name__ == "__main__":
     # data path for data
-    DATA_PATH = "swiggy.csv"
+    DATA_PATH = "../data/swiggy.csv"
     
     # read the data from path
     df = pd.read_csv(DATA_PATH)
