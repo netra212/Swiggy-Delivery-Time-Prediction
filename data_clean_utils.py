@@ -97,21 +97,21 @@ def clean_lat_long(data: pd.DataFrame, threshold=1):
     return data
 
 
-# extract day, day name, month and year
-def extract_datetime_features(ser):
-    date_col = pd.to_datetime(ser,dayfirst=True)
+# Extract day, day name, month and year. 
+def extract_datetime_features(date_col):
 
-    return (
-        pd.DataFrame(
-            {
-                "day": date_col.dt.day,
-                "month": date_col.dt.month,
-                "year": date_col.dt.year,
-                "day_of_week": date_col.dt.day_name(),
-                "is_weekend": date_col.dt.day_name().isin(["Saturday","Sunday"]).astype(int)
-            }
-        ))
-    
+    # Convert the input series to datetime format. 
+    date_col = pd.to_datetime(date_col, dayfirst=True)
+
+    # Create a DataFrame with extracted features.
+    result = pd.DataFrame()
+    result["day"] = date_col.dt.day
+    result["month"] = date_col.dt.month
+    result["year"] = date_col.dt.year
+    result["day_of_week"] = date_col.dt.day_name()
+    result["is_weekend"] = date_col.dt.day_name().isin(["Saturday", "Sunday"]).astype(int)
+
+    return result
     
 def time_of_day(ser):
 
